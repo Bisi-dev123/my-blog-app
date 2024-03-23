@@ -1,0 +1,17 @@
+
+
+.header-wrapper{
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.fullblog-card-wrapper{
+    width: 600px;
+    border-radius: 8px;
+    border: 0.1px solid #3DB1F2;
+    margin: 0 auto;
+  }

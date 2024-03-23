@@ -6,7 +6,7 @@
 }
 
 .blog-container{
-  max-width: 640px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -15,6 +15,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  
+  
 }
 
 .brandname-wrapper{
@@ -47,7 +50,7 @@ h1{
 }
 
 .blog-card-wrapper{
-  width: 300px;
+  width: 280px;
   border-radius: 8px;
   border: 0.1px solid #3DB1F2;
 }
@@ -60,13 +63,14 @@ h1{
 }
 
 .title-wrapper{
-  padding: 0;
-  margin: 0;
+  padding: 0 16px;
+  margin: 0 auto;
+  font-size: 24px;
 }
 
 h3{
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -84,7 +88,7 @@ p{
   padding: 12px;
   border-radius: 8px;
   border: none;
-  width: 90%;
+  width: 98%;
   font-weight: 700;
   margin-bottom: 20px;
   cursor: pointer;
@@ -97,7 +101,7 @@ p{
 .blog-cards-wrapper{
    display: flex;
    flex-wrap: wrap;
-   column-gap: 16px;
+   column-gap: 0px;
    justify-content: space-between;
    row-gap: 24px;
 }
